@@ -1,0 +1,23 @@
+{
+    "config": {
+        "allow-plugins": {
+            "typo3/class-alias-loader": true,
+            "typo3/cms-composer-installers": true
+        }
+    },
+    "require": {
+        "typo3/minimal": "^9.5",
+        "slub/publisher-db": "dev-master",
+        "slub/guv-sitepackage": "dev-master"
+    },
+    "repositories": {
+        "sitepackage": {
+            "type": "path",
+            "url": "/var/www/extensions/guv_sitepackage"
+        },
+        "publisher-db": {
+            "type": "path",
+            "url": "/var/www/extensions/publisher-db"
+        }
+    }
+}
