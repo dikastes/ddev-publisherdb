@@ -8,7 +8,12 @@
     "require": {
         "typo3/minimal": "^9.5",
         "slub/publisher-db": "dev-master",
-        "slub/guv-sitepackage": "dev-master"
+        "slub/guv-sitepackage": "dev-master",
+        "friendsoftypo3/extension-builder": "^9.5",
+        "typo3/cms-fluid-styled-content": "^9",
+        "typo3/cms-filelist": "^9",
+        "typo3/cms-about": "^9.5",
+        "typo3/cms-tstemplate": "^9.5"
     },
     "repositories": {
         "sitepackage": {
